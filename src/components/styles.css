@@ -1,0 +1,24 @@
+:root {
+  --main-bg-color: #fffff;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+a {
+  color: #007acc;
+}
+
+.dark-mode {
+  font-size: 1.6rem;
+}
+
+.dark-mode:hover {
+  cursor: pointer;
+}
+
+blockquote {
+  color: #007acc;
+  border-left: 0.32813rem solid #007acc;
+}

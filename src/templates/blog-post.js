@@ -5,6 +5,8 @@ import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
+import { formatDifficulty } from '../utils/helpers';
+
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -26,6 +28,16 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+        {post.frontmatter.difficulty !== 'n/a' && <span
+          style={{
+            ...scale(-1 / 5),
+            display: 'block',
+            marginBottom: rhythm(1),
+            marginTop: rhythm(-1),
+          }}
+        >
+          Difficulty: {formatDifficulty(post.frontmatter.difficulty)}
+        </span>}
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{

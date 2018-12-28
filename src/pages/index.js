@@ -5,6 +5,7 @@ import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
+import { formatDifficulty } from '../utils/helpers'
 
 class BlogIndex extends React.Component {
   render() {
@@ -33,6 +34,7 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
+              {node.frontmatter.difficulty !== 'n/a' && <small>, Difficulty: {formatDifficulty(node.frontmatter.difficulty)}</small>}
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
           )
