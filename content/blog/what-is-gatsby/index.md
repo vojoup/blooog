@@ -23,7 +23,7 @@ The developer experience and their get started guide.
 Even if you are someone who was never exposed to React, you're able to pick up Gatsby really fast in an incredibly comprehensive way.
 And if you ever get lost their  doc is amazing!
 
-# What makes it different?
+## What makes it different?
 
 For me, it's again the amount of plugins and the overall dev experience.
 
@@ -31,12 +31,12 @@ Besides that Gatsbys' unique usage of GraphQL makes it easy to both learn it and
 
 And there's another big reason. When you start a new Gatsby project using the _gatsby-cli_ you get a starter that's fully PWA enabled, fully accessible and the performance is off the charts!
 
-# Is it for me if I don't know about React and/or GraphQL ?
+## Is it for me if I don't know about React and/or GraphQL ?
 
 As I've mentioned above, even if using Gatsby would be your first exposure to React and/or GraphQL you'll be able to make something.
 It might take you a bit longer at the beginning but it'd be time well spend because at the end of the day you'll learn **3** new things at the same time!
 
-# Where and how do I get started ?
+## Where and how do I get started ?
 
 The best place to get you started is definitely [Gatsbys' get started docs](https://www.gatsbyjs.org/docs/).
 Just go through the tutorial there and they'll teach you the basics.
