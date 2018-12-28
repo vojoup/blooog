@@ -1,17 +1,15 @@
 ---
-title: What is Gatsbyjs
-date: "2018-12-27"
+title: What is Gatsby
+date: "2018-12-28"
 difficulty: easy
 ---
 
 While building this blog I was researching what to use for a static site. And since I'm a javascript guy and I listen to the [Syntax](https://syntax.fm/) podcast I found out about [Gatsbyjs](https://www.gatsbyjs.org/).
-Gatsbyjs has been on 🔥 lately so I'd like to answer some of the questions I myself wondered about when first exposed to gatsbyjs.
+Gatsby has been on 🔥 lately so I'd like to answer some of the questions I myself wondered about when first exposed to Gatsby.
 
-## What is Gatsbyjs ?
+## What is Gatsby ?
 
 > Blazing fast modern site generator for React
->
-> <cite>Gatsby</cite>
 
 In short, it's a static site generator that let's you use React and GraphQL.
 Gatsby let's you use all the latest and greatest there is. Be it React, GraphQL, babel 7, you name it.
