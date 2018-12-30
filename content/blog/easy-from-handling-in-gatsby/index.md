@@ -91,7 +91,7 @@ Set its value equal to the route of our success page which is `"/success"` in ou
 
 After this our form will look as follows:
 
-```html
+```html{2}
 <form 
   action="/success"
   name="contact" 
