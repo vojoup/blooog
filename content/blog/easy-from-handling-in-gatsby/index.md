@@ -119,8 +119,8 @@ You can be notified when your forms get submitted!
 
 To set up such notifications go to the _Forms_ section in your app dashboard follow the instructions.
 
-If you'd like to see a Gatsby app using Netlify forms in action go see my [starter app](https://forms-starter.netlify.com/) and also check out the [code](https://github.com/vojoup/netlify-forms-starter)!
+---
 
---- 
+If you'd like to see a Gatsby app using Netlify forms in action go see my [starter app](https://forms-starter.netlify.com/) and also check out the [code](https://github.com/vojoup/netlify-forms-starter)!
 
 I hope you liked this post and I'll see you in the next one 👋!
