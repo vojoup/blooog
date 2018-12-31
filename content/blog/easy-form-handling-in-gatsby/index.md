@@ -10,13 +10,18 @@ Then use Netlify forms!
 ## What does Netlify have to offer regarding forms?
 
 Everything.
-From handling the form submissions through notifying you about form submissions to preventing spam bots to submit your forms.
+From handling the form submissions through notifying you about form submissions to preventing bots from spamming you.
 And you get all this with minimal work and even for free (up to a number of submissions).
 
-## Use them in your existing app
+## Just add some attributes...
 
-If you already have a form in your app and you want to use Netlify to handle their submission you just have to add a few html attributes and deploy to netlify.
-Consider your basic form would look like something this:
+If you already have a form in your app just add the two attributes I mention bellow and you're done.
+Otherwise just follow along, it won't take long.
+Really.
+
+### Let's get to building our new form
+
+As an example I'll be using this form:
 
 ```html
 <form name="contact">
@@ -32,9 +37,13 @@ Consider your basic form would look like something this:
 </form>
 ```
 
-To enable Netlify to handle this form you'd modify it like this:
+To tell Netlify to handle this form we'll add 2 attributes - `data-netlify` and `data-netlify-honeypot` - to our form tag.
+The first one (`data-netlify`) tells Netlify that you want it to register this form.
+The second attribute (`data-netlify-honeypot`) takes care of spam bots.
 
-```html
+The hidden input on line 7 is just another tool defending our form against bots.
+
+```html{4,5,7}
 <form 
   name="contact" 
   method="post" 
@@ -45,7 +54,8 @@ To enable Netlify to handle this form you'd modify it like this:
   ...
 ```
 
-And that's it.
+And that's all there is to it.
+We literally just added only 2 html attributes and we now have a form with all the functionality you'd typically need!
 Now if you go to your apps dashboard and click _Forms_ you'll see your contact form and all the recent submissions!
 
 Netlify even includes a default redirection to a success/thank you page after a successful form submission which you can customize if you want.
@@ -111,13 +121,6 @@ After this our form will look as follows:
   </ul>
 </form>
 ```
-
-## Notifications
-
-This is another great feature of Netlify forms.
-You can be notified when your forms get submitted!
-
-To set up such notifications go to the _Forms_ section in your app dashboard follow the instructions.
 
 ---
 
