@@ -30,7 +30,11 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <AniLink swipe direction="up" style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <AniLink
+                  swipe
+                  direction="up"
+                  style={{ boxShadow: `none` }}
+                  to={node.fields.slug}>
                   {title}
                 </AniLink>
               </h3>
