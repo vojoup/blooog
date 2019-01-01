@@ -31,9 +31,12 @@ class BlogIndex extends React.Component {
                 }}
               >
                 <AniLink
-                  swipe
+                  cover
                   direction="up"
-                  style={{ boxShadow: `none` }}
+                  bg="#007acc"
+                  // style={{ boxShadow: `none` }}
+                  className="no-underline"
+                  style={{ textDecoration: 'none' }}
                   to={node.fields.slug}>
                   {title}
                 </AniLink>
