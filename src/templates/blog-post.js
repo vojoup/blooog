@@ -58,14 +58,14 @@ class BlogPostTemplate extends React.Component {
         >
           <li>
             {previous && (
-              <AniLink swipe direction="right" to={previous.fields.slug} rel="prev">
+              <AniLink cover bg="#007acc" direction="right" to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </AniLink>
             )}
           </li>
           <li>
             {next && (
-              <AniLink swipe direction="left" to={next.fields.slug} rel="next">
+              <AniLink cover bg="#007acc" direction="left" to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </AniLink>
             )}
