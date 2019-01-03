@@ -34,7 +34,6 @@ class BlogIndex extends React.Component {
                   cover
                   direction="up"
                   bg="#007acc"
-                  // style={{ boxShadow: `none` }}
                   className="no-underline"
                   style={{ textDecoration: 'none' }}
                   to={node.fields.slug}>

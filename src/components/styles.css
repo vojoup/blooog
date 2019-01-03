@@ -8,6 +8,7 @@ body {
 
 a {
   color: #007acc;
+  box-shadow: none;
 }
 
 .dark-mode {
@@ -21,4 +22,12 @@ a {
 blockquote {
   color: #007acc;
   border-left: 0.32813rem solid #007acc;
+}
+
+footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
 }
