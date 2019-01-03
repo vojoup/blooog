@@ -8,6 +8,7 @@ body {
 
 a {
   color: #007acc;
+  box-shadow: none;
 }
 
 .dark-mode {
